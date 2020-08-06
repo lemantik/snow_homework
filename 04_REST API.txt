@@ -1,0 +1,2 @@
+Utilize an external tool to utilize the Incident Management REST API and pull back the details of an Incident record looked up by Incident Number
+https://dev92068.service-now.com/api/now/table/incident?sysparm_limit=1&number=INC0010111

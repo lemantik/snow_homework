@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-08-06 06:35:49">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Import a spreadsheet to the Application CI table (Possibly provide a spreadsheet with field maps and at least one translation for a target dropdown field)</description>
+<inserted/>
+<name>al.importApplications</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>cdf4abc82faa1410c1d95e492799b66e</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>f7f6af0c2faa1410c1d95e492799b61f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_06a5a30c2faa1410c1d95e492799b61c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;true&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="CMDB_Apps"&gt;3845afc82faa1410c1d95e492799b609&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_application&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_cmdb_applications&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-06 06:29:58&lt;/sys_created_on&gt;&lt;sys_id&gt;06a5a30c2faa1410c1d95e492799b61c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_application&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_06a5a30c2faa1410c1d95e492799b61c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-06 06:32:27&lt;/sys_updated_on&gt;&lt;target_field&gt;name&lt;/target_field&gt;&lt;target_table&gt;cmdb_ci_appl&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1285482045</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>33f6af0c2faa1410c1d95e492799b621</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2788cdc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table/>
+<target_name>u_application</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>2636e70c96aa14101daf001c35d1d5be</update_guid>
+<update_guid_history>2636e70c96aa14101daf001c35d1d5be:-1285482045,0aa5a30cf8aa1410b459da5d729b881e:-1347229146</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cmdb_applications_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_cmdb_applications"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_cmdb_applications</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-06 06:28:08</sys_created_on><sys_id>1b356fc82faa1410c1d95e492799b662</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_applications</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_cmdb_applications_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-06 06:28:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-951064266</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>37f6af0c2faa1410c1d95e492799b620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2749d520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table>u_cmdb_applications</table>
+<target_name>CMDB_Applications</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>23356fc8adaa14106dcf3782a7236b84</update_guid>
+<update_guid_history>23356fc8adaa14106dcf3782a7236b84:-951064266</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_2f356fc82faa1410c1d95e492799b680</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_cmdb_applications</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-06 06:28:09</sys_created_on><sys_id>2f356fc82faa1410c1d95e492799b680</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_applications</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_2f356fc82faa1410c1d95e492799b680</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-06 06:28:09</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-1730804454</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>3ff6af0c2faa1410c1d95e492799b621</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2749d090000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table/>
+<target_name>u_cmdb_applications</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>67356fc896aa1410ed2260482f9b3c82</update_guid>
+<update_guid_history>67356fc896aa1410ed2260482f9b3c82:-1730804454</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_53356fc82faa1410c1d95e492799b65e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>CMDB_Applications</label><live_feed_enabled>false</live_feed_enabled><name>u_cmdb_applications</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">2194e2962f121010c1d95e492799b68f</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-06 06:28:08</sys_created_on><sys_id>53356fc82faa1410c1d95e492799b65e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMDB Applications</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_53356fc82faa1410c1d95e492799b65e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-06 06:28:08</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-764750058</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>73f6af0c2faa1410c1d95e492799b620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2749d7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table>u_cmdb_applications</table>
+<target_name>CMDB_Applications</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>e3356fc8f2aa1410102dd62e35f09f85</update_guid>
+<update_guid_history>e3356fc8f2aa1410102dd62e35f09f85:-764750058</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_3845afc82faa1410c1d95e492799b609</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;CMDB_Apps&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;u_cmdb_applications&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-06 06:29:15&lt;/sys_created_on&gt;&lt;sys_id&gt;3845afc82faa1410c1d95e492799b609&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CMDB_Apps&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_3845afc82faa1410c1d95e492799b609&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-06 06:29:15&lt;/sys_updated_on&gt;&lt;target_table&gt;cmdb_ci_appl&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-270959541</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>7bf6af0c2faa1410c1d95e492799b621</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c275a1d10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table/>
+<target_name>CMDB_Apps</target_name>
+<type>Table Transform Map</type>
+<update_domain>global</update_domain>
+<update_guid>f3756b04d8aa141082a243b1adac2d36</update_guid>
+<update_guid_history>f3756b04d8aa141082a243b1adac2d36:-270959541</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cmdb_applications_u_owner</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_owner" table="u_cmdb_applications"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Owner</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Owner</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_owner</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_cmdb_applications</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-06 06:28:08</sys_created_on><sys_id>93356fc82faa1410c1d95e492799b676</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Owner</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_cmdb_applications_u_owner</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-06 06:28:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>98214617</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>7ff6af0c2faa1410c1d95e492799b620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2749d9c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table>u_cmdb_applications</table>
+<target_name>CMDB_Applications.Owner</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e7356fc877aa1410df206ca4470e8c86</update_guid>
+<update_guid_history>e7356fc877aa1410df206ca4470e8c86:98214617</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_86a5a30c2faa1410c1d95e492799b61f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="CMDB_Apps"&gt;3845afc82faa1410c1d95e492799b609&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;[Script]&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+	var statesMapping = {
+		'Repair': '3',
+		'Operational': '1',
+		'Non-Operational': '2',
+	};
+	return statesMapping[source.u_operational_status];
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_cmdb_applications&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-06 06:29:58&lt;/sys_created_on&gt;&lt;sys_id&gt;86a5a30c2faa1410c1d95e492799b61f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;[Script]&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_86a5a30c2faa1410c1d95e492799b61f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-06 06:31:21&lt;/sys_updated_on&gt;&lt;target_field&gt;operational_status&lt;/target_field&gt;&lt;target_table&gt;cmdb_ci_appl&lt;/target_table&gt;&lt;use_source_script&gt;true&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-522751426</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>b7f6af0c2faa1410c1d95e492799b621</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2778dd90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table/>
+<target_name>[Script]</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>aaf56b0421aa14101266dd30ef4d3339</update_guid>
+<update_guid_history>aaf56b0421aa14101266dd30ef4d3339:-522751426,06a5a30c51aa141051208a2ed4b57520:408622228</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cmdb_applications_u_operational_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_operational_status" table="u_cmdb_applications"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Operational status</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Operational status</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_operational_status</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_cmdb_applications</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-06 06:28:08</sys_created_on><sys_id>df356fc82faa1410c1d95e492799b677</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Operational status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_cmdb_applications_u_operational_status</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-06 06:28:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1974654202</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>bbf6af0c2faa1410c1d95e492799b620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2749db70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table>u_cmdb_applications</table>
+<target_name>CMDB_Applications.Operational status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6b356fc83aaa141086f15617ceb59187</update_guid>
+<update_guid_history>6b356fc83aaa141086f15617ceb59187:1974654202</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_data_source_83352fc82faa1410c1d95e492799b601</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;category/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url&gt;attachment://sys_data_source:83352fc82faa1410c1d95e492799b601/cmdb_applictions_import.xlsx&lt;/connection_url&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table) {
+
+	// Add your code here to insert data to import_set_table
+
+})(import_set_table);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path&gt;cmdb_applictions_import.xlsx&lt;/file_path&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;Excel&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;1&lt;/header_row&gt;&lt;import_set_table_label/&gt;&lt;import_set_table_name&gt;u_cmdb_applications&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time/&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;cmdb_applictions_import.xlsx (Uploaded)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-06 06:28:07&lt;/sys_created_on&gt;&lt;sys_id&gt;83352fc82faa1410c1d95e492799b601&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;cmdb_applictions_import.xlsx (Uploaded)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_83352fc82faa1410c1d95e492799b601&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-06 06:28:09&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;File&lt;/type&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-837366381</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>bff6af0c2faa1410c1d95e492799b61f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2749fc90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table/>
+<target_name>cmdb_applictions_import.xlsx (Uploaded)</target_name>
+<type>Data Source</type>
+<update_domain>global</update_domain>
+<update_guid>e3356fc81eaa1410093a2f18c36669ac</update_guid>
+<update_guid_history>e3356fc81eaa1410093a2f18c36669ac:-837366381,a7356fc850aa14102e9e29e8ea8733ab:-1602023403</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_42a5a30c2faa1410c1d95e492799b621</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="CMDB_Apps"&gt;3845afc82faa1410c1d95e492799b609&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_owner&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_cmdb_applications&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-06 06:29:58&lt;/sys_created_on&gt;&lt;sys_id&gt;42a5a30c2faa1410c1d95e492799b621&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_owner&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_42a5a30c2faa1410c1d95e492799b621&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-06 06:29:58&lt;/sys_updated_on&gt;&lt;target_field&gt;owned_by&lt;/target_field&gt;&lt;target_table&gt;cmdb_ci_appl&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1809979924</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>f3f6af0c2faa1410c1d95e492799b621</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c27647ae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table/>
+<target_name>u_owner</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_guid>cea5a30c54aa14108c213dcce3938c21</update_guid>
+<update_guid_history>cea5a30c54aa14108c213dcce3938c21:-1809979924</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_cmdb_applications_u_application</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_application" table="u_cmdb_applications"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Application</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Application</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_application</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_cmdb_applications</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-06 06:28:08</sys_created_on><sys_id>53356fc82faa1410c1d95e492799b679</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Application</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_cmdb_applications_u_application</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-06 06:28:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>924487938</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>f7f6af0c2faa1410c1d95e492799b620</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c2749de70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table>u_cmdb_applications</table>
+<target_name>CMDB_Applications.Application</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>eb356fc84aaa14102f0b460c38e8df88</update_guid>
+<update_guid_history>eb356fc84aaa14102f0b460c38e8df88:924487938</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_a7356fc82faa1410c1d95e492799b6ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>CMDB_Applications</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_cmdb_applications</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-08-06 06:28:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7356fc82faa1410c1d95e492799b6ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMDB_Applications</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_a7356fc82faa1410c1d95e492799b6ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-08-06 06:28:09</sys_updated_on><timeline_page/><title>CMDB_Applications</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>966680765</payload_hash>
+<remote_update_set display_value="al.importApplications">f7f6af0c2faa1410c1d95e492799b61f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-08-06 06:35:49</sys_created_on>
+<sys_id>fbf6af0c2faa1410c1d95e492799b61f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>173c274a0470000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-08-06 06:35:49</sys_updated_on>
+<table>u_cmdb_applications</table>
+<target_name>CMDB_Applications</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>eb356fc856aa1410cecaa32cbfdd7aaf</update_guid>
+<update_guid_history>eb356fc856aa1410cecaa32cbfdd7aaf:966680765</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
